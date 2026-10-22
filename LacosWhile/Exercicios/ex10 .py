@@ -2,7 +2,8 @@ energia = 30
 
 while energia > 0:
     minerio = input("___QUE MINERIO VOCÊ ENCONTROU??___")
-
+    minerio = minerio.lower()
+    
     if minerio == "ouro":
         print ("___BOM TRABALHO!!___")
 
